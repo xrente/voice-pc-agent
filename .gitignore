@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Временные файлы и артефакты моделей
+tmp/
+temp/
+outputs/
+*.log
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Workspace агента и журнал действий
+workspace/
+action_log.jsonl
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/

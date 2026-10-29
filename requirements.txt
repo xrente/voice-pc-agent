@@ -1,0 +1,30 @@
+# Бэкенд
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic>=2.11
+python-multipart>=0.0.9
+
+# ASR (Whisper)
+faster-whisper>=1.1.0
+librosa>=0.10.2
+numpy>=1.26
+soundfile>=0.12.1
+pydub>=0.25
+static-ffmpeg>=2.7
+audioop-lts; python_version >= "3.13"
+
+# TTS (Silero)
+torch>=2.2
+torchaudio>=2.2
+omegaconf>=2.3.0
+
+# LLM (локальная, через Ollama)
+ollama>=0.4.0
+
+# Фронтенд
+streamlit==1.41.1
+requests==2.32.3
+
+# Тесты
+pytest>=8.0
+pytest-cov>=5.0
